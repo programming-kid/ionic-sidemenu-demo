@@ -1,5 +1,35 @@
 <ion-view view-title="Browse">
-  <ion-content>
-    <h1>Browse</h1>
-  </ion-content>
+
+    <ion-tabs class="tabs-icon-top tabs-background-stable tabs-color-active-positive">
+        <ion-tab class="tabs-stable " title="tab A" icon-off="ion-home" on-select="onTabSelected('home')" icon-on="ion-home">
+            <ion-view>
+                </ion-content>
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="tab B" on-select="onTabSelected('likes')" icon-on="ion-heart">
+            <ion-view>
+                <ion-content>
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="tab C" on-select="onTabSelected('accepted')" icon-on="ion-checkmark-round">
+            <ion-view>
+                <ion-content>
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="tab D" on-select="onTabSelected('active')" icon-on="ion-pin">
+            <ion-view>
+                <ion-content>
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="tab E" on-select="onTabSelected('scanned')" icon-on="ion-ios-barcode">
+            <ion-view>
+                <ion-content>
+                </ion-content>
+            </ion-view>
+        </ion-tab>
+    </ion-tabs>
 </ion-view>
